@@ -1,0 +1,382 @@
+/*universal style rules*/
+html {
+	font-size: 18px;
+}
+
+body {
+	font-family: helvetica;
+	margin-bottom: 5rem;
+}
+
+.content{ 
+	padding-top: 1rem;
+}
+
+.course .box h1 {
+	text-align: left;
+	font-size: 1.5rem;
+}
+
+.course .box span {
+	font-size: 1rem;
+	font-weight: 300;
+}
+
+.software, .design, .data, .business, .marketing {
+	width: 25%;
+	padding: 20px 20px;
+}
+
+/*header section style rules*/
+.head {
+	display: flex;
+	justify-content: space-between;	
+	align-items: center;
+	background-color: white;	
+	width: 100%;
+	height: 2rem;
+	padding-top: 1rem;
+	margin-top: -0.50rem;
+	margin-left: -0.50rem;
+}
+
+header .logo_img {
+	display: flex;
+	padding-left: 1rem;
+	width: 2.5rem;
+	font-size: 1rem;
+	color: darkslategray;
+}
+
+header h1 span{
+	color: gray;
+	font-weight: 400;
+}
+
+/*nav section of the header style rules*/
+header .nav {
+	display: flex;
+	color: darkslategray;	
+}
+
+header .nav nav {
+	font-weight: 400;
+	font-size: 1rem;
+	margin: 5px 10px;
+}
+
+/*learn something new section style rules*/
+.learn_something_new {
+	display: flex;
+	background-color: gainsboro;
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+	padding-left: 0.30rem;
+	width: 100%;
+}
+
+.learn_something_new img {
+	width: 60%;
+}
+
+.box {
+	flex-direction: column;
+	padding-left: 1.5rem;
+	width: 40%;
+	color: dimgray;
+}
+
+.box h1 {
+	font-size: 3rem;
+	padding-top: 9rem;
+}
+
+.box span {
+	font-size: 2rem;
+}
+
+.box nav {
+	font-size: 2rem;
+	text-align: center;
+	padding-top: 1rem;
+	margin-top: 5rem;
+	background-color: gray;
+	border-radius: 5px;
+	color: white;
+	width: 94%;
+	height: 4rem;
+}
+
+.box nav:hover {
+	background-color: darkslategray;
+}
+
+/*it doesn't hurt to keep practicing section style rules*/
+.it_doesnt_hurt img{
+	margin-top: 0.30rem;
+	width: 97%;
+}	
+
+.it_doesnt_hurt .box {
+	width: 97%;
+	margin-top: -10rem;
+}
+
+.it_doesnt_hurt .box h1 {
+	font-size: 2.7rem;
+}
+
+.it_doesnt_hurt .box span {
+	font-size: 1rem;
+}
+
+/*information on the right side section style rules*/
+.information {
+	display: flex;
+	padding: 1rem 0;
+	background-color: whitesmoke;
+}
+
+.feed {
+	border-left: 1px solid gainsboro;
+	width: 80%;
+}
+
+.post {
+	width: 80%;
+    padding: 16px;
+    display: flex;
+    border-bottom: 1px solid gainsboro;
+    align-items: center;
+}
+
+.post img {
+	width: 35%;
+}
+
+.info {
+	color: dimgray;
+	font-weight: bold;
+	font-size: 0.90rem;
+	flex-direction: column;
+	padding-left: 1rem;
+	padding-right: 3rem;
+}
+
+.info h1 {
+	font-size: 1.5rem;
+}
+
+.info nav {
+	color: cornflowerblue;
+}
+
+.info nav:hover {
+	text-decoration: underline;
+	color: white;
+}
+
+.lecture {
+	background-color: lightgray;
+}
+
+/*start learning section style rules*/
+.start_learning {
+	padding: 32px 24px;
+    background-color: #D8D8D8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.start_learning h1 {
+	font-size: 2.7rem;
+	text-align: center;
+	color: dimgray;
+}
+
+.course {
+    display: flex;
+    flex-flow: row wrap;
+	justify-content: center;
+}
+
+/*software engineering section style rules*/
+
+.software img {
+	width: 100%;
+}
+
+.software .box {
+	background-color: whitesmoke;
+	margin-top: -9.5rem;
+	padding-bottom: 2rem;
+	width: 91.5%;	
+}
+
+/*computer art section style rules*/
+.computer {
+	width: 34%;
+	padding: 20px 18px;
+}
+
+.computer img {
+	width: 73.5%;
+}
+
+.computer .box {
+	background-color: whitesmoke;
+	margin-top: -9.5rem;
+	width: 67.3%;
+	padding-bottom: 0.79rem;
+}
+
+/*design section style rules*/
+.design {
+	margin-left: -6.7rem;
+}
+
+.design img {
+	width: 100%;
+}
+
+.design .box {
+	background-color: whitesmoke;
+	margin-top: -9.5rem;
+	width: 91.5%;
+	padding-bottom: 2rem;
+}
+
+/*data section style rules*/
+.data img {
+	width: 100%;
+}
+
+.data .box {
+	background-color: whitesmoke;
+	margin-top: -9.5rem;
+	width: 91.5%;
+	padding-bottom: 2rem;
+}
+
+/*business section style rules*/
+.business img {
+	width: 100%;
+}
+
+.business .box {
+	background-color: whitesmoke;
+	margin-top: -9.5rem;
+	width: 91.5%;
+	padding-bottom: 2rem;
+}
+
+/*marketing section style rules*/
+.marketing img {
+	width: 100%;
+}
+
+.marketing .box {
+	background-color: whitesmoke;
+	margin-top: -9.5rem;
+	width: 91.6%;
+	padding-bottom: 2rem;
+}
+
+/*thesis exhibit section style rules*/
+.thesis_exhibit {
+	background-color: whitesmoke;
+	display: flex;
+	flex-direction: column;
+}
+
+.thesis_exhibit h1 {
+	text-align: center;
+}
+
+.exhibits video {
+	display: flex;
+	margin-top: -2rem;
+	width: 40rem;
+	height: 30rem;
+}
+
+.thesis_exhibit .box {
+	display: inline-flex;
+	flex-direction: row;	
+}
+
+.thesis  {
+	width: 100%;
+    padding: 16px;
+}
+
+.thesis img {
+	width: 50%;
+	height: 100%;
+}
+
+/*fisma design gray section style rules*/
+.gray {
+	display: flex;
+	width: 30rem;
+	height: 34%;
+	padding: 10px 9px;
+	background-color: lightgray;
+}
+
+.gray .box {
+	flex-direction: column;
+}
+
+.gray span {
+	font-size: 1rem;
+}
+
+.gray h2 {
+	font-size: 1.3rem;
+}
+
+/*new york then and now section style rules*/
+.new_york {
+	display: flex;
+	width: 100%;
+	height: 34%;
+	padding: 10px 9px;
+}
+
+.new_york .box {
+	flex-direction: column;
+}
+
+.new_york span {
+	font-size: 1rem;
+}
+
+/*Reimagine urban section style rules*/
+.urban {
+	padding: 10px 10px;
+	margin-bottom: 2rem;
+}
+
+/*footer section style rules*/
+footer {
+	display: flex;
+	color: gray;
+    justify-content: space-between;
+	align-items: center;
+	padding: 1rem 1rem 0 1rem;
+    border-top: 1px solid lightgray;
+    font-size: 0.75rem;
+}
+
+footer .nav {
+	display: inline-flex;
+}
+
+footer .nav nav {
+	padding: 10px 20px;
+}
+
+
+
